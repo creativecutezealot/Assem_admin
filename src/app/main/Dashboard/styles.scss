@@ -1,0 +1,41 @@
+.profile-wrapper {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    .profile-img-wrapper {
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        overflow: hidden;
+
+        .profile-img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    .site-role {
+        color: #3a81bf;
+        font-size: 14px;
+    }
+
+    .profile-name {
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 10px;
+    }
+
+    .profile-role {
+        overflow: hidden;
+        color: #ffffff;
+        font-size: 14px;
+        padding-top: 5px;
+    }
+}
+
+.popup .modal-content {
+    border: 5px solid rgb(59, 117, 180);
+    border-radius: 20px;
+    color: #ffffff;
+    background: radial-gradient(#1f1b2a, #131118);
+    font-family: SweetSans-SC, Sweet Sans;
+}

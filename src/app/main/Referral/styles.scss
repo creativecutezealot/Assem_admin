@@ -1,0 +1,49 @@
+.referral {
+    .profile-form {
+        width: 100%;
+    }
+    .referral-container {
+        margin-top: 20px;
+        padding-left: 15px;
+        margin-bottom: 80px;
+    }
+    .referral-wrapper {
+        border: #3b75b4 1px solid;
+        border-radius: 6px;
+    }
+    .referral-img {
+        width: 200px;
+        height: 210px;
+        object-fit: cover;
+    }
+    .referral-section {
+        background-color: #1f1b2a;
+        padding: 20px 40px 300px 40px;
+        border-radius: 6px;
+    }
+
+    .input-row {
+        margin-top: 15px;
+    }
+
+    .input-area {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .btn {
+        min-width: 120px;
+    }
+
+    .badge {
+        position: relative;
+        top: -5px;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    .membership {
+        color: 'white' !important;
+        background-color: blue($color: #3a81bf) !important;
+    }
+}

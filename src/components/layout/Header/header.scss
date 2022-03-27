@@ -1,0 +1,45 @@
+.header {
+    padding-left: 300px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.header-sub {
+    padding-left: 300px;
+    padding-right: 100px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.nav-header {
+    background: radial-gradient(#1f1b2a, #131118);
+    height: 100px;
+    padding-left: 0px;
+}
+
+.screenshot {
+    //   width: 300px;
+    height: 270px;
+    object-fit: cover;
+}
+.logo {
+    padding-left: 20px;
+}
+
+#popover-contained {
+    background: radial-gradient(#1f1b2a, #131118);
+    .popover-body {
+        .nav-item {
+            color: #ffffff;
+            border: 1px solid #3a81bf;
+            padding: 5px 10px;
+        }
+        .select-item {
+            background: #3a81bf;
+            color: #ffffff;
+            border: 1px solid #3a81bf;
+            padding: 5px 10px;
+        }
+    }
+    
+}

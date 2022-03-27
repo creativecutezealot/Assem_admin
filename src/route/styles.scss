@@ -1,0 +1,36 @@
+.sidebar-menu {
+    width: 300px;
+    height: 60%;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 16px;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: .3s ease all;
+    transition: .3s ease all;
+    background: #1f1b2a;
+    visibility: visible;
+    &.open {
+    //   -webkit-transform: translateX(300px);
+    //   transform: translateX(300px);
+        visibility: hidden;
+    }
+    .menu {
+      > li {
+        > a {
+          padding: 15px 20px;
+          color: #fff;
+        }
+      }
+    }
+    .sidebar-news {
+      overflow-y: auto;
+      max-height: 80%;
+    }
+}
+
+.toggle {
+    min-width: 16px;
+    margin: 4px;
+}

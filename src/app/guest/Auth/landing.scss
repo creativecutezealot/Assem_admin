@@ -1,0 +1,100 @@
+.landing {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100vh;
+
+    .logo {
+        position: absolute;
+        display: block;
+        top: calc(45vh);
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        max-width: 450px;
+        width: 300px;
+    }
+    .auth-logo {
+        width: 212px;
+        height: 67px;
+        // transform: scale(0.8, 0.8);
+    }
+
+    .landing-form {
+        position: absolute;
+        display: block;
+        top: calc(5vh);
+        right: 32px;
+        // transform: translate(-50%, -50%);
+        // width: 100%;
+        max-width: 450px;
+        // width: 300px;
+    }
+
+    .signup-btn {
+        width: 160px;
+        height: 30px;
+        border-radius: 4px !important;
+        font-size: 12px;
+        font-family: SweetSans-SC, Sweet Sans;
+        padding: 0.3rem;
+        font-weight: bold;
+        background-color: #1c89c9;
+        border-color: #1c89c9;
+    }
+
+    .login-btn {
+        width: 160px;
+        height: 30px;
+        border-radius: 4px !important;
+        font-size: 12px;
+        font-family: SweetSans-SC, Sweet Sans;
+        padding: 0.3rem;
+        font-weight: bold;
+    }
+
+    .background-overlay {
+        position: absolute;
+        bottom: 0px;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        // background: linear-gradient(
+        //     rgba(49, 53, 63, 0.58),
+        //     rgba(49, 53, 67, 0.58)
+        // );
+        background: radial-gradient(#313543, #1f222c);
+        z-index: -1;
+    }
+
+    .video {
+        position: fixed;
+        z-index: -2;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .description {
+        font-family: SweetSans-SC, Sweet Sans;
+        font-size: 14px;
+        font-weight: bold;
+        color: #bbbdbf;
+        margin-top: -6px;
+        margin-bottom: 26px;
+    }
+    .footer {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100px;
+
+        .items {
+            margin: 50px;
+            font-family: SweetSans-SC, Sweet Sans;
+            font-size: 10px;
+            font-weight: bold;
+            color: #bbbdbf;
+        }
+    }
+}

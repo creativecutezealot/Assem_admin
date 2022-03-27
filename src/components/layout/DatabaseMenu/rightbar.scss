@@ -1,0 +1,30 @@
+.right-tbl-bar {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 200px;
+    height: 100vh;
+    background: radial-gradient(#1f1b2a, #131118);
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .nav-tbl-wrapper {
+        .nav {
+            .nav-item {
+                width: 100%;
+                display: block;
+                background: #3a81bf;
+                color: #ffffff;
+                font-size: 16px;
+                text-decoration: none;
+                margin: 15px 0;
+                padding: 5px 10px;
+            }
+            .select-item {
+                background: white;
+                color: black;
+            }
+        }
+    }
+}

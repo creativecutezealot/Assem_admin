@@ -1,0 +1,46 @@
+.sort-order-list {
+    .input-date {
+        color: white;
+        background-color: transparent;
+    }
+
+    .sort-order-container {
+        margin-top: 20px;
+        padding-left: 15px;
+        margin-bottom: 80px;
+    }
+
+    .sort-order-create-section {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        border: #3b75b4 1px solid;
+        padding: 20px 30px;
+    }
+    .btn-section {
+        height: 36px;
+        padding: 5px 20px;
+        border: #ffffff 1px solid;
+        margin-right: 20px;
+        cursor: pointer;
+        border-radius: 6px;
+    }
+    .create {
+        background-color: #3b75b4;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .sort {
+        padding: 0px;
+        height: 100%;
+        border-radius: 0px;
+        border-width: 0px;
+    }
+    .order-tab {
+        .nav-tabs .nav-link {
+            color: white;
+        }
+        .nav-tabs .nav-link.active {
+            color: black;
+        }
+    }
+}

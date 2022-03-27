@@ -1,0 +1,57 @@
+.club-card {
+    margin-top: 20px;
+    padding-left: 15px;
+    margin-bottom: 80px;
+    .club-wrapper {
+        border: #3b75b4 1px solid;
+        margin-top: 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        padding-bottom: 40px;
+        border-radius: 6px;
+        overflow: hidden;
+    }
+
+    .club-container {
+        padding: 40px 60px;
+    }
+    .club-img {
+        width: 100%;
+        height: max-content;
+        object-fit: cover;
+    }
+
+    .site-role {
+        color: #3a81bf;
+        font-size: 14px;
+    }
+
+    .club-name {
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: bold;
+        padding-top: 10px;
+        visibility: hidden;
+    }
+
+    .club-role {
+        overflow: hidden;
+        color: #ffffff;
+        font-size: 14px;
+        padding-top: 5px;
+    }
+
+    .club-bio {
+        overflow: hidden;
+        color: #ffffff;
+        font-size: 14px;
+        padding-top: 35px;
+    }
+
+    .club-btn {
+        margin-top: 30px;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
+}

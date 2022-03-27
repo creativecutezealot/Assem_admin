@@ -1,0 +1,10 @@
+{
+    "apps": [
+        {
+            "name" : "front-end",
+            "script": "npx",
+            "interpreter": "none",
+            "args": "serve -p 3500 -T"
+        }
+    ]
+}

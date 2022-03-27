@@ -1,0 +1,53 @@
+.member-card {
+    margin-top: 20px;
+    padding-left: 15px;
+    margin-bottom: 80px;
+    .member-wrapper {
+        border: #3b75b4 1px solid;
+        margin-top: 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        padding-bottom: 10px;
+        border-radius: 6px;
+    }
+
+    .member-container {
+        padding: 40px 60px;
+    }
+    .member-img {
+        width: 100%;
+        height: 189px;
+        object-fit: cover;
+    }
+
+    .site-role {
+        color: #3a81bf;
+        font-size: 14px;
+    }
+
+    .member-name {
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: bold;
+        padding-top: 10px;
+    }
+
+    .member-role {
+        overflow: hidden;
+        color: #ffffff;
+        font-size: 14px;
+        padding-top: 5px;
+    }
+
+    .member-bio {
+        overflow: hidden;
+        color: #ffffff;
+        font-size: 14px;
+        padding-top: 35px;
+    }
+
+    .member-btn {
+        margin-top: 30px;
+        margin-right: 10px;
+    }
+}

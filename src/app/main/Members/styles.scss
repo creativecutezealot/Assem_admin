@@ -1,0 +1,110 @@
+.members-list {
+    .input-date {
+        color: white;
+        background-color: transparent;
+    }
+
+    .members-list-container {
+        margin-top: 20px;
+        padding-left: 15px;
+        margin-bottom: 80px;
+    }
+
+    .members-list-create-section {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        border: #3b75b4 1px solid;
+        padding: 20px 30px;
+        border-radius: 6px;
+    }
+    .btn-section {
+        height: 36px;
+        padding: 5px 20px;
+        margin-right: 20px;
+        cursor: pointer;
+        border-radius: 6px;
+    }
+    .create {
+        background-color: #3b75b4;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .selected {
+        border: #ffffff 1px solid;
+    }
+    .deselected {
+        border: #3b75b4 1px solid;
+    }
+    .sort {
+        padding: 0px;
+        height: 100%;
+        border-radius: 0px;
+        border-width: 0px;
+    }
+
+    .invite-msg-form {
+        border: #3b75b4 1px solid;
+        width: 100%;
+        padding: 2% 5%;
+        background: #1f1b2a;
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .table {
+        color: #ffffff;
+        width: 100%;
+        font-size: 14px;
+        text-align: center;
+        thead {
+            background: #3a81bf;
+
+            th {
+                min-width: 200px !important;
+                align-self: flex-start;
+            }
+        }
+        tbody {
+            background: #1f1b2a;
+            color: white;
+
+            .btn-primary {
+                background: #3a81bf;
+                margin: auto;
+                // min-width: 100px;
+                // height: 35px;
+            }
+
+            th {
+                // width: 200px;
+                background-color: #3a81bf;
+                align-self: flex-start;
+            }
+
+            td {
+                white-space: nowrap;
+            }
+        }
+    }
+    .td-wrap {
+        max-width: 200px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        height: auto;
+        max-height: 40px;
+    }
+    .tbl-image {
+        border-radius: 4px;
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.datetimepicker {
+    color: black;
+    background-color: transparent;
+    .form-control {
+        text-align: center;
+    }
+}

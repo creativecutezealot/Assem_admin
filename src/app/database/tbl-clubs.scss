@@ -1,0 +1,97 @@
+.tbl-clus {
+    .content {
+        padding-top: 20px;
+    }
+
+    input[type='text'] {
+        background-color: transparent;
+    }
+
+    h4,
+    h5,
+    h6 {
+        max-width: 600px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .form-md {
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form-lg {
+        max-width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .table {
+        color: #ffffff;
+        width: 100%;
+        font-size: 14px;
+        text-align: center;
+        thead {
+            background: gray;
+
+            th {
+                min-width: 200px !important;
+                align-self: flex-start;
+            }
+        }
+        tbody {
+            background: #1f1b2a;
+            color: white;
+
+            .btn-primary {
+                background: #3a81bf;
+                margin: auto;
+                // min-width: 100px;
+                // height: 35px;
+            }
+
+            th {
+                // width: 200px;
+                background-color: #3a81bf;
+                align-self: flex-start;
+            }
+
+            td {
+                white-space: nowrap;
+                align-items: center;
+                justify-content: center;
+                textarea {
+                    color: white;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .td-wrap {
+        max-width: 200px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        height: auto;
+        max-height: 40px;
+    }
+    .tbl-image {
+        border-radius: 4px;
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.database-tab {
+    .nav-tabs .nav-link {
+        color: white;
+    }
+    .nav-tabs .nav-link.active {
+        color: black;
+    }
+}
+
+.connect-modal-90vw {
+    width: 90vw;
+    max-width: none !important;
+}

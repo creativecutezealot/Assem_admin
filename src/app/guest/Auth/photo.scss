@@ -1,0 +1,286 @@
+.photo {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100vh;
+    .auth-logo {
+        width: 212px;
+        height: 67px;
+    }
+
+    .signup-form {
+        position: fixed;
+        display: block;
+        top: calc(47vh);
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        max-width: 450px;
+        width: 300px;
+
+        .image-form-wrapper .input-group {
+            width: auto;
+            button {
+                width: 160px;
+                height: 130px;
+            }
+        }
+    }
+    .login-main-form {
+        position: fixed;
+        display: block;
+        top: calc(40vh);
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        max-width: 450px;
+        width: 243px;
+    }
+    .login-header {
+        margin-top: 30px;
+        width: 100%;
+    }
+    .login-menu-container {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        align-items: flex-end;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+    }
+    .login-menu {
+        width: 40px;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        cursor: pointer;
+    }
+
+    .register-btn {
+        width: 160px;
+        height: 30px;
+        border-radius: 4px !important;
+        font-size: 12px;
+        font-family: SweetSans-SC, Sweet Sans;
+        padding: 0.3rem;
+        font-weight: bold;
+        background-color: #1c89c9;
+        border-color: #1c89c9;
+    }
+
+    .register-form-input {
+        border: 1px solid white !important;
+        border-radius: 6px !important;
+        height: 32px;
+        letter-spacing: 0.01em;
+        font-family: SweetSans-SC, Sweet Sans;
+        font-size: 14px;
+        color: #ffe;
+        width: 250px;
+    }
+
+    .register-form-input.is-invalid {
+      border: 1px solid #dc3545 !important;
+    }
+
+    .login-memu-icon {
+        font-size: 22px;
+    }
+
+    .login-items {
+        background-color: white;
+        color: black;
+        font-size: 15px;
+        padding: 4px 44px 4px 12px;
+        margin-right: 8px;
+        border-radius: 6px;
+        border: 2px solid rgba(49, 53, 67, 0.88);
+        cursor: pointer;
+    }
+
+    .background-overlay {
+        position: absolute;
+        bottom: 0px;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        // background: linear-gradient(
+        //     rgba(49, 53, 63, 0.58),
+        //     rgba(49, 53, 67, 0.58)
+        // );
+        background: radial-gradient(#313543, #1f222c);
+        z-index: -1;
+    }
+
+    .video {
+        position: fixed;
+        z-index: -2;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .StripeElement {
+        border: 1px solid white;
+        border-radius: 6px;
+    }
+
+    .join-now {
+        font-family: SweetSans-SC, Sweet Sans;
+        font-size: 12px;
+        color: #bbbdbf;
+    }
+
+    .join-now-link {
+        color: #1c89c9;
+    }
+
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #b1b5ba;
+        opacity: 1; /* Firefox */
+        font-family: SweetSans-SC, Sweet Sans;
+        font-size: 12px;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+      
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: #b1b5ba;
+        font-family: SweetSans-SC, Sweet Sans;
+        font-size: 12px;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+      
+    ::-ms-input-placeholder { /* Microsoft Edge */
+        color: #b1b5ba;
+        font-family: SweetSans-SC, Sweet Sans;
+        font-size: 12px;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+
+    .title {
+        font-family: SweetSans-SC, Sweet Sans;
+        font-size: 22px;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .description {
+        font-family: SweetSans-SC, Sweet Sans;
+        font-size: 12px;
+        color: #bbbdbf;
+    }
+
+    .stepper {
+        position: absolute;
+        top: 32px;
+        bottom: 0;
+        left: 0;
+        width: 100px;
+        
+        .container {
+            position: relative;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .title {
+            font-family: SweetSans-SC, Sweet Sans;
+            font-size: 12px;
+            font-weight: bold;
+            color: #e4eef8;
+            margin-bottom: 10px;
+        }
+    }
+
+    .step {
+        position: relative;
+        color: gray;
+        margin-left: 14px;
+    }
+    
+    .step.step1 {
+        height: 6em;
+        .circle {
+            position: relative;
+            width: 0.8em;
+            height: 0.8em;
+            line-height: 1.5em;
+            border-radius: 100%;
+        }
+        .circle:after {
+            content: ' ';
+            position: absolute;
+            display: block;
+            top: 11px;
+            right: 50%;
+            bottom: 1px;
+            left: 50%;
+            height: 6.8em;
+            width: 2px;
+            // transform: scale(1, 2);
+            transform-origin: 50% -90%;
+            background:rgba(34, 211, 311, 0.25)
+            // z-index: -1;
+        }
+    }
+
+    .step.step2 {
+        height: 2em;
+        .circle {
+            position: relative;
+            width: 0.8em;
+            height: 0.8em;
+            line-height: 1.5em;
+            border-radius: 100%;
+          }
+        .circle:after {
+            content: ' ';
+            position: absolute;
+            display: block;
+            top: 11px;
+            right: 50%;
+            bottom: 1px;
+            left: 50%;
+            height: 2.8em;
+            width: 2px;
+            // transform: scale(1, 2);
+            transform-origin: 50% -90%;
+            background:rgba(34, 211, 311, 0.25)
+            // z-index: -1;
+        }
+    }
+
+    .step + .step {
+        margin-top: 1.5em
+    }
+    .step > div:first-child {
+        position: static;
+        height: 0;
+    }
+    .step > div:not(:first-child) {
+        margin-left: 1.5em;
+        padding-left: 1em;
+    }
+      
+    .step:last-child .circle:after {
+        display: none
+    }
+
+    .step .circle {
+        border: 2px solid rgba(34, 211, 311, 0.25);
+        background-color: transparent;
+    }
+
+    .step.step-active {
+        color: #1c89c9;
+    }
+    .step.step-active .circle {
+        background-color: #1c89c9;
+    }
+}

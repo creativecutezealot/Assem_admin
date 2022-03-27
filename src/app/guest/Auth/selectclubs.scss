@@ -1,0 +1,115 @@
+.select-clubs {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100vh;
+    .logo {
+        padding: 20px;
+        margin-left: 25px;
+        margin-bottom: 100px;
+    }
+    .auth-logo {
+        width: 212px;
+        height: 67px;
+        // transform: scale(0.75, 0.75);
+    }
+
+    .landing-btn {
+        width: 120px;
+        height: 25px;
+        border-radius: 4px !important;
+        font-size: 10px;
+        font-family: SweetSans-SC, Sweet Sans;
+        padding: 0.3rem;
+        font-weight: bold;
+    }
+
+    .background-overlay {
+        position: absolute;
+        bottom: 0px;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        // background: linear-gradient(
+        //     rgba(49, 53, 63, 0.58),
+        //     rgba(49, 53, 67, 0.58)
+        // );
+        background: radial-gradient(#313543, #1f222c);
+        z-index: -1;
+    }
+
+    .video {
+        position: fixed;
+        z-index: -2;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .title {
+        font-family: SweetSans-SC, Sweet Sans;
+        font-size: 22px;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .description {
+        font-family: SweetSans-SC, Sweet Sans;
+        font-size: 12px;
+        font-weight: 500;
+        color: #bbbdbf;
+        margin-top: -16px;
+        margin-bottom: 26px;
+    }
+    .footer {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100px;
+
+        .items {
+            margin: 50px;
+            font-family: SweetSans-SC, Sweet Sans;
+            font-size: 10px;
+            font-weight: bold;
+            color: #bbbdbf;
+        }
+    }
+
+    .club-card {
+        margin-bottom: 0;
+    }
+
+    .club-card .club-wrapper {
+        padding: 0;
+        border: 1px solid rgba(34, 211, 311, 0.25) !important;
+    }
+
+    .club-card .club-name {
+        font-size: 16px;
+        font-family: ProximaNova-Regular, Proxima Nova;
+    }
+
+    .club-card .join {
+        width: 160px;
+        height: 30px;
+        border-radius: 4px !important;
+        font-size: 12px;
+        font-family: SweetSans-SC, Sweet Sans;
+        padding: 0.3rem;
+        font-weight: bold;
+        background-color: #1c89c9;
+        border-color: #1c89c9;
+    }
+
+    .join-now {
+        font-family: SweetSans-SC, Sweet Sans;
+        font-size: 10px;
+        color: #bbbdbf;
+    }
+
+    .join-now-link {
+        color: #1c89c9;
+    }
+}
